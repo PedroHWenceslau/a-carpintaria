@@ -7,46 +7,6 @@
         "Virtude",
         "Trabalho"
       ]
-    },
-    {
-      "title": "A caverna e a oficina",
-      "author": "Platão",
-      "themes": [
-        "Contemplação",
-        "Razão e Fé"
-      ]
-    },
-    {
-      "title": "José, o homem justo",
-      "author": "São José",
-      "themes": [
-        "Família",
-        "Trabalho",
-        "Virtude"
-      ]
-    },
-    {
-      "title": "O bem comum e a justiça",
-      "author": "Aristóteles e Platão",
-      "themes": [
-        "Justiça"
-      ]
-    },
-    {
-      "title": "Fé e razão em Tomás de Aquino",
-      "author": "Tomás de Aquino",
-      "themes": [
-        "Razão e Fé",
-        "Contemplação"
-      ]
-    },
-    {
-      "title": "Trabalho, descanso e contemplação",
-      "author": "Aristóteles e Tomás de Aquino",
-      "themes": [
-        "Trabalho",
-        "Contemplação"
-      ]
     }
   ]
 }
