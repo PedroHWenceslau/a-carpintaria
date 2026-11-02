@@ -1,0 +1,31 @@
+backend:
+  name: github
+  repo: PedroHWenceslau/a-carpintaria
+  branch: main
+
+locale: pt
+publish_mode: simple
+media_folder: img
+public_folder: /img
+
+collections:
+  - name: textos
+    label: Textos
+    files:
+      - name: posts
+        label: Textos do blog
+        file: data/posts.json
+        format: json
+        fields:
+          - label: Textos
+            name: posts
+            widget: list
+            summary: "{{fields.title}}"
+            fields:
+              - { label: Título, name: title, widget: string }
+              - { label: Autor, name: author, widget: string, required: false }
+              - label: Temas
+                name: themes
+                widget: list
+                field: { label: Tema, name: tema, widget: string }
+              - { label: Texto, name: text, widget: text, required: false }
